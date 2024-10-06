@@ -1,0 +1,67 @@
+/* styles.css */
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.grid-item {
+  width: 25%;
+  padding: 16px;
+  background-color: white;
+  margin-bottom: 20px; /* Add margin-bottom for spacing between grid items */
+}
+
+.load-more {
+  width: 100%;
+  text-align: center;
+  margin-top: auto; /* Set margin-top to auto to push it to the bottom */
+  margin-bottom: 20px; /* Add margin-bottom for spacing */
+}
+
+.video-container {
+  width: 100%;
+  position: relative;
+  
+}
+
+.video-player {
+  width: 100%;
+  height: 100%;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.view-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.wishlist-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.mainwrap{
+  width:87%;
+  margin-top:80px;
+  margin-left:85px;
+  
+}
+.icon.in-wishlist {
+  color: red; /* Set your desired color for the heart icon when it's in the wishlist */
+}
+
+.icon.not-in-wishlist{
+  color: black;
+}

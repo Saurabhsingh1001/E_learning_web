@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+body{
+  background-color: #1f2937;
+}
+
+.logout-btn {
+    position: absolute;
+    bottom: 5%;
+    width: 70%;
+  }
+  .add-btn-div {
+    display: flex;
+    justify-content: flex-end;
+  }
+ 
+  .add-btn {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f46b;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border-color: #1f2937;
+    border-width: 2px;
+    font-weight: 600;
+    color: #1f2937;}

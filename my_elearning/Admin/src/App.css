@@ -1,0 +1,182 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ 
+
+* > * {
+
+    font-family: "Poppins", cursive;
+
+    
+
+}
+
+ 
+
+body{
+
+  background-color: yellow;
+
+  /*background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+
+  /*background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ 
+
+}
+
+
+
+.register .col-2 img{
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+ 
+}
+ 
+@media screen and (min-width: 860px)  {
+
+  .register .col-2 img{
+
+    display: initial;
+
+  }
+
+}
+
+.col-2{
+  width:50%;
+  margin-left:-7%;
+}
+.flex-col{
+
+  flex-direction: column;
+
+}
+
+ 
+
+.col-1{
+  margin-top:100px;
+  margin-left:30% ;
+  
+
+  
+}
+
+
+.register{
+
+  /* max-width: 978px; */
+
+  width: 50%;
+
+  display:flex;
+
+  
+   
+  margin:auto;
+  border: 1px solid #e9ecef;
+
+  border-radius: 5px;
+
+  box-shadow: 1px 3px 10px #d97a07;
+
+  /* background-image:url('colour.jpg'); */
+  /* background-color: white; */
+
+  
+
+  margin-top:140px;
+
+}
+
+ 
+
+.register span{
+
+  color: #adb5bd;
+
+}
+
+ 
+
+#form{
+
+  max-width: 320px;
+
+  width: 100vw;
+
+  margin: 2em auto;
+
+}
+
+ 
+
+#form >  input, .btn{
+
+  border: 1px solid #e9ecef;
+
+  padding: .9em 1em;
+
+}
+
+ 
+
+#form > input:focus{
+
+  outline: none;
+
+}
+
+ 
+
+#form > .btn{
+
+  background-color: #dc8c14 ;
+
+  color: #e9ecef;
+
+  font-size: 1em;
+
+  cursor: pointer;
+
+}
+
+ 
+
+.flex{
+
+  /* display: flex; */
+
+  gap: 1em;
+
+}
+img{
+  height:500px;
+  width:400px;
+  margin-left:150px;
+  filter: drop-shadow(0 0 10px green);
+  animation: glow 1s alternate infinite;
+}
+@keyframes glow{
+  0%{
+    filter: drop-shadow(0 0 10px #d97a07);
+  }
+  100%{
+    filter: drop-shadow(0 0 25px #d97a07 );;
+  }
+}
+.col-1 h1{
+  color: #d97a07;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.error-message{
+  color: white;
+}

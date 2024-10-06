@@ -1,0 +1,111 @@
+/* styles.css */
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:10rem;
+    background-color: yellow;
+  }
+  
+  .grid-item {
+    width: 20%;
+    padding: 16px;
+    margin-top:13rem;
+    margin-bottom:-5rem;
+    margin-left:30px;
+    
+    /* Add margin-bottom for spacing between grid items */
+  }
+  .video-grid{
+    display: flex;
+    
+    
+    
+  }
+  .load-more {
+    width: 100%;
+    text-align: center;
+    margin-right:80px;
+    margin-top: auto; /* Set margin-top to auto to push it to the bottom */
+    margin-bottom: 20px; /* Add margin-bottom for spacing */
+  }
+  
+  .video-container {
+    width: 100%;
+    position: relative;
+  
+    
+    
+    
+  }
+  
+  .video-player {
+    width: 100%;
+    height: 100%;
+    
+    
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding-top:5px;
+    /* margin-top:-20px; */
+    /* background-color: lightgoldenrodyellow; */
+    border-radius: 50%;
+    font-size: 40px;
+    cursor:pointer;
+    border-style: none;
+    
+    
+  }
+  
+  .update-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .mainwrap{
+    width:auto;
+    height: 100vh;
+    margin-left:12rem;
+    /* margin-left:250px; */
+    
+    
+  }
+
+  .addbtn {
+    
+    width: 9%; 
+    height:12rem;/* Set the width to 100% to take the full width of the container */
+    text-align:right;
+    margin-right:5rem;
+    z-index: 1000;
+    margin-top:1rem;
+     /* Add margin-bottom for spacing */
+  }
+  
+  .button1 {
+    
+    width: 150px;
+    height: 50px;
+    margin-left:69rem;
+    /* margin-top:7rem !important; */
+    font-size: 20px;
+    background-color:  #e79509 ;
+    /* background-color: #0093b0; */
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+  }
+ 
+  

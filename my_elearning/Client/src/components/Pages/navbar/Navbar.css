@@ -1,0 +1,62 @@
+/* Navbar.css */
+
+nav {
+    display: flex;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #00c6e9;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.7);
+    position: relative;
+    
+    height:4rem;
+  }
+
+  .logoimg {
+    background: url('../logoo.png') no-repeat center center;
+    background-size: contain;
+    height: 60px;
+    width: 90px;
+    /* Add a border for visibility */
+}
+  
+  
+  
+  .navbar-links-container {
+    display: flex;
+    margin-right: 20px;
+    gap: 50px;
+    
+    
+  }
+
+  .navbar-links-container a{
+    
+    padding:6px;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    /* background-color: rgb(245, 243, 243); */
+    border-color: lightgrey;
+    border-radius: 10px;
+
+    
+    
+  }
+ 
+
+  .navbar-menu-container {
+    display: none; /* Hide the menu icon by default */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-links-container {
+      display: none; /* Hide the links when the screen size is reduced */
+    }
+  
+    .navbar-menu-container {
+      display: block; /* Show the menu icon on smaller screens */
+    }
+  }
+  

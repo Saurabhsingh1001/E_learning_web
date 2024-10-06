@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ * > * {
+
+    font-family: "Poppins", cursive;
+    margin: 0;
+
+}
+
+ 
+
+body{
+    background:#d2d4d4;
+  }
+
+ 
+
+.App {
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+ 
+
+.login{
+
+ 
+
+  width: 900px;
+  display:flex;
+  height:auto;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  box-shadow: 1px 3px 10px #e9ecef;
+  margin-left: 310px;
+  margin-top:140px;
+
+}
+
+.register{
+
+  
+
+  width: 900px;
+  display:flex;
+  height:500px;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  box-shadow: 1px 3px 10px #e9ecef;
+  margin-left: 310px;
+  margin-top:140px;
+
+}
+
+ 
+
+.register, .login span{
+
+  color: #adb5bd;
+
+}
+
+ 
+
+#form{
+
+  max-width: 320px;
+
+  width: 100vw;
+  
+  margin: 2em auto;
+
+}
+
+ 
+
+#form >  input, .btn, .btn1{
+
+  border: 1px solid #e9ecef;
+
+  padding: .9em 1em;
+
+}
+
+.btnvideo{
+  margin-top:-300px;
+  margin-left:180px;
+  height:auto;
+  width:120px;
+
+  border-color: blue;
+
+}
+
+
+.custom-div1{
+  position: relative;
+  border: 5px solid transparent; /* Initial transparent border */
+  padding-bottom: 50px;
+  padding-top:20px;
+  padding-left:20px;
+  width:160px;
+  height:40px;
+  margin-top:-300px;
+  margin-left:150px;
+  cursor: pointer;
+  
+   /* Add padding for content */
+}
+#videohead1, #videohead{
+  font-size: 25px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+/* Animation for the border color */
+@keyframes colorAnimation {
+  0% {
+      border-color: rgb(173, 148, 148);
+  }
+  20% {
+      border-color: rgb(184, 184, 149);
+  }
+  40% {
+      border-color: rgb(133, 187, 133);
+  }
+  60% {
+      border-color: rgb(157, 243, 243);
+  }
+  80% {
+      border-color: rgb(69, 69, 69);
+  }
+  100% {
+      border-color: rgb(181, 177, 181);
+  }
+}
+
+/* Apply the animation to the div with border */
+.custom-div, .custom-div1 {
+  animation: colorAnimation 10s linear infinite ; /* Adjust the animation duration and timing function as needed */
+}
+
+/* Add more styles as needed */
+
+
+#form > input:focus{
+
+  outline: none;
+
+}
+
+.btn, .btn1{
+  width:120px;
+  height: 40px;
+  padding: 2px;
+  margin-top:40px;
+  margin-left:110px;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  
+  
+}
+.btn1{
+  width:100px;
+  height: 40px;
+  padding: 2px;
+  margin-top:40px;
+  margin-left:110px;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.btn :hover {
+    
+  width:120px;
+  height:55px;
+  background-color: darkolivegreen;
+}
+ 
+
+#form > .btn{
+
+  background-color:black;
+
+  color: #e9ecef;
+
+  font-size: 1em;
+
+  cursor: pointer;
+
+}
+
+ 
+
+.flex{
+
+  display: flex;
+
+  gap: 1em;
+
+}
+
+ 
+
+.flex-col{
+  
+  flex-direction: column;
+
+}
+
+#loginheading{
+  height: 50px;
+  width:50px;
+  margin-left: 117px;
+} 
+
+.col-1{
+  margin-top:90px;
+  margin-right:50px ;
+  
+  padding: 1em 0;
+
+}
+
+
+
+.login .col-2 video {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.register .col-2 video {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+.nav-logo-container img {
+  height: 70px;
+  width:90px; /* Set the height of your logo */
+}
+/* LoginForm.css */
+
+/* Your existing styles go here */
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+  .login{
+    /* Adjust styling for tablet screens */
+    width:80%;
+    padding: 20px;
+    margin-top:90px;
+    margin-left:100px; /* Add or adjust padding */
+  }
+
+  .register {
+    /* Adjust styling for tablet screens */
+    width:80%;
+    padding: 20px;
+    margin-top:90px;
+    margin-left:100px; /* Add or adjust padding */
+  }
+  .register > .col-2{
+    width:70%;
+    
+  }
+  .login > .col-2{
+    width:70%;
+    height:auto;
+  }
+
+  .col-1 {
+    /* Adjust styling for tablet screens */
+    width: 40%; /* Adjust width for better responsiveness */
+    /* Center the column */
+  }
+  .col-2{
+    width:70%;
+    height:100%;
+  }
+  .custon-div1{
+    height:30px;
+    
+    
+  }
+
+  /* Add more styles as needed */
+}
+
+/* Mobile styles */
+@media (max-width: 768px ) {
+  .login{
+    /* Adjust styling for mobile screens */
+    margin-top:70px;
+    display:block;
+    padding: 10px; 
+    height:auto;
+    margin-left:50px;/* Add or adjust padding */
+  }
+  .register {
+    /* Adjust styling for mobile screens */
+    margin-top:70px;
+    display:block;
+    padding: 10px; 
+    width:80%;
+    height:auto;
+    margin-left:50px;/* Add or adjust padding */
+  }
+
+  .col-1 {
+    /* Adjust styling for mobile screens */
+    width: 100%;
+    margin-top:20px;
+    margin-left:30px; /* Take up full width */
+  }
+  .login > .col-2{
+    width:100%;
+  
+    
+  }
+  .register > .col-2{
+    margin-left:20px;
+    width:100%;
+  }
+  .custom-div1{
+      
+    width:160px;
+    height:10px;
+    padding:30px;
+    margin-bottom:40px;
+    margin-top:-120px;
+    margin-left:110px;
+  }
+  #videohead1, #videohead{
+    font-size: 20px;
+    margin-top:-20px;
+    margin-left:-10px;
+  }
+  input{
+    width:80%;
+    margin-left:8px;
+  }
+  .btn{
+    width:40%;
+    margin-top:2px;
+    margin-left:50px;
+  }
+  .btn1{
+    margin-top:2px;
+    margin-left:50px;
+  }
+  
+
+  /* Add more styles as needed */
+}

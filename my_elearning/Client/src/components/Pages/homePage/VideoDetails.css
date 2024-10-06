@@ -1,0 +1,18 @@
+/* VideoDetails.css (Create a separate CSS file for styling) */
+/* .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: green; 
+  }
+  
+  .video-player {
+    width: 700px; 
+    height: 400px; 
+  }
+   */
+
+   .icon.in-wishlist {
+    color: red; /* Set your desired color for the heart icon when it's in the wishlist */
+  }
